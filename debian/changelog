@@ -1,3 +1,10 @@
+compizfusionconfig-python (0.8.8-1) unstable; urgency=low
+
+  * Rename package to avoid update prompts for compiz-0.9
+  * Bump version to 0.8.8 to match other compiz packages
+
+ -- Brent Hull <bhull2010@live.com>  Fri, 19 Apr 2013 18:44:53 -0400
+
 compizconfig-python (0.8.4-3) unstable; urgency=low
 
   * non-maintainer fork

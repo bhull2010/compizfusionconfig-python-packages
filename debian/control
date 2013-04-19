@@ -1,19 +1,19 @@
-Source: compizconfig-python
+Source: compizfusionconfig-python
 Priority: extra
-Maintainer: Jasmine Hassan <jasmine.aura@gmail.com>
-Uploaders: Sean Finney <seanius@debian.org>
+Maintainer: Local User <user@localhost>
+Uploaders: Sean Finney <seanius@debian.org>, Jasmine Hassan <jasmine.aura@gmail.com>
 Build-Depends: autoconf, automake1.9, autotools-dev,  debhelper (>= 7.0.50~),
- compiz-dev (>= 0.8.4), libcompizconfig-dev (>= 0.8.4), libglib2.0-dev, 
+ compizfusion-dev (>= 0.8.8), libcompizfusionconfig-dev (>= 0.8.8), libglib2.0-dev, 
  libtool, libxml2-dev, libxslt1-dev, 
  python-all-dev, python-pyrex, python-support,
  hardening-wrapper,
 Standards-Version: 3.9.3
 Section: x11
-Homepage: http://www.compiz-fusion.org
 
-Package: python-compizconfig
+Package: python-compizfusionconfig
 Architecture: any
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Conflicts: python-compizconfig
 Description: Compizconfig bindings for python
  Compiz Fusion is the result of the re-unification of the Beryl-project
  and the community around the Compiz Window Manager. It seeks to provide
