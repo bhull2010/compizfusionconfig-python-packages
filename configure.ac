@@ -2,7 +2,7 @@ AC_PREREQ(2.57)
 AC_INIT([compizconfig-python],esyscmd(. ./VERSION;echo -n $VERSION), [livinglatexkali@gmail.com])
 
 AM_INIT_AUTOMAKE([1.9 dist-bzip2])
-AC_CONFIG_HEADER([config.h])
+AC_CONFIG_HEADERS([config.h])
 AM_MAINTAINER_MODE
 
 AC_ISC_POSIX
